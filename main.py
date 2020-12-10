@@ -17,17 +17,17 @@ if __name__ == '__main__':
             janela['lower'].update(value=False)
         elif eventos == 'Formatar' and valores['Titulo']:
             txt = FormataTexto(valores['texto'], 'Titulo')
-            sg.popup_ok(f'Texto Formatado: {txt}, para copiar favor ir até a aba de Sáida')
+            #sg.popup_ok(f'Texto Formatado: {txt}, para copiar favor ir até a aba de Sáida')
             print('Texto Formatoda: ')
             print(txt)
         elif eventos == 'Formatar' and valores['UPPER']:
             txt = FormataTexto(valores['texto'], 'UPPER')
-            sg.popup_ok(f'Texto Formatado: {txt}, para copiar favor ir até a aba de Sáida')
+            #sg.popup_ok(f'Texto Formatado: {txt}, para copiar favor ir até a aba de Sáida')
             print('Texto Formatoda: ')
             print(txt)
         elif eventos == 'Formatar' and valores['lower']:
             txt = FormataTexto(valores['texto'], 'lower')
-            sg.popup_ok(f'Texto Formatado: {txt}, para copiar favor ir até a aba de Sáida')
+            #sg.popup_ok(f'Texto Formatado: {txt}, para copiar favor ir até a aba de Sáida')
             print('Texto Formatoda: ')
             print(txt)
         else:
