@@ -1,3 +1,4 @@
+#! python
 from formataTexto import FormataTexto
 from interface import Windows
 import PySimpleGUI as sg
